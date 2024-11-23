@@ -1,5 +1,5 @@
 import streamlit as st
-import sachi_info
+import sachi_info as sachi_info
 import pandas as pd
 
 def about_me_section():

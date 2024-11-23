@@ -75,7 +75,7 @@ spoken_data = {
 }
 leadership_data = {
     "President of Artificial Intelligence Club": (["- Educated club members on theory and Python syntax to develop a comprehensive understanding of AI algorithms", "- Overhauled and synthesized past teaching material to better appeal to high school students", "- Increased club membership by 700%"],"Images/ai.jpg"),
-    "Competition Director of Computer Science Honors Society (CSHS)": (["- Collaborated with CS Council and CSHS teachers to organize lesson plans and create material to teach different coding skills (HTML & CSS, bootstrap, JQuery, SQL, Python, etc), teaching 50+ students", "- Spearheaded the competition branch and created material to teach Python and competitive coding concept", "- Executed mock school coding competitions and organized competitions with other schools"], "Images/cshs.jpeg"),
+    "Competition Director of Computer Science Honors Society (CSHS)": (["- Collaborated with CS Council and CSHS teachers to organize lesson plans and create material to teach different coding skills (HTML & CSS, bootstrap, JQuery, SQL, Python, etc), teaching 50+ students", "- Spearheaded the competition branch and created material to teach Python and competitive coding concept", "- Executed mock school coding competitions and organized competitions with other schools"], "Images/cshs.webp"),
     "President of Competitive Coding Club": (["- Organized learning materials in Java and Python teaching members theory, syntax, and practice questions every week", "- Coached 60+ club members on the worldwide competition, Lockheed Martin, making it to the semi-finals"], "Images/coding.jpeg")
 
 }
