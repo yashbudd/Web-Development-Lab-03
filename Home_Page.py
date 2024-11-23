@@ -21,10 +21,10 @@ st.subheader("Yash Buddhdeo, Sachi Goel")
 st.write("""
 Welcome to our Streamlit Web Development Lab03 app! You can navigate between the pages using the sidebar to the left. The following pages are:
 
-1.
-2.
-3.
-4.
+1. **Yash Buddhdeo's Profile Page**: Learn all about Yash and his experience in CS
+2. **Sachi Goel's Profile Page**: Learn all about Sachi and her journey before and at GT
+3. **API Exploration**: Explore the space dataset
+4. **Chatbot**: Ask our bot any questions you may have
 
 """)
 
