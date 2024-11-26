@@ -55,3 +55,4 @@ if st.button("Submit"):
             st.error("Enter a valid Stock Symbol (e.g., IBM, AAPL).")
     else:
         st.warning("Please enter a stock symbol.")
+        
