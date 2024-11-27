@@ -9,8 +9,10 @@ import plotly.express as px
 st.header("Stock Market Information")
 input_var = st.text_input("Input a symbol of a current stock, use a comma seperated list if you would like to compare stocks")
 
+# NEW
 graph = st.radio("Choose on the following options", ["Open", "High", "Low", "Close", "Volume"])
 
+# NEW
 if st.button("Submit"):
     if input_var:
         symbols = [symbol.strip() for symbol in input_var.split(",")]
@@ -38,6 +40,7 @@ if st.button("Submit"):
                 df["Symbol"] = symbol
                 combined_data = pd.concat([combined_data, df[[graph, "Symbol"]]], axis=0)
             else:
+                # NEW
                 st.warning(f"No data available for {symbol}. Please check again.")
             
         if not combined_data.empty:
@@ -50,8 +53,11 @@ if st.button("Submit"):
                     title=f"{graph} Prices for Selected Stocks",
                     labels={"value": graph, "index": "Date", "Symbol": "Stock Symbol"}
                 )
+            # NEW
             st.plotly_chart(fig, use_container_width=True)
         else:
+            # New
+            
             st.error("Enter a valid Stock Symbol (e.g., IBM, AAPL).")
     else:
         st.warning("Please enter a stock symbol.")
